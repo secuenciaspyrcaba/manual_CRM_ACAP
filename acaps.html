@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 ACAPs | ACAPs</title>
+  <meta name="description" content="Este es el manual de documentación del CRM ACAP. El formato de salida es bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 ACAPs | ACAPs" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Este es el manual de documentación del CRM ACAP. El formato de salida es bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 ACAPs | ACAPs" />
+  
+  <meta name="twitter:description" content="Este es el manual de documentación del CRM ACAP. El formato de salida es bookdown::gitbook." />
+  
+
+<meta name="author" content="Cristián Rizzi Iribarren" />
+
+
+<meta name="date" content="2023-12-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="avances.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Presentación</a></li>
+<li class="chapter" data-level="1" data-path="contactos.html"><a href="contactos.html"><i class="fa fa-check"></i><b>1</b> Contactos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="contactos.html"><a href="contactos.html#organizaciones"><i class="fa fa-check"></i><b>1.1</b> Organizaciones</a></li>
+<li class="chapter" data-level="1.2" data-path="contactos.html"><a href="contactos.html#personas"><i class="fa fa-check"></i><b>1.2</b> Personas</a></li>
+<li class="chapter" data-level="1.3" data-path="contactos.html"><a href="contactos.html#editar-contactos"><i class="fa fa-check"></i><b>1.3</b> Editar contactos</a></li>
+<li class="chapter" data-level="1.4" data-path="contactos.html"><a href="contactos.html#relacionar-contactos"><i class="fa fa-check"></i><b>1.4</b> Relacionar contactos</a></li>
+<li class="chapter" data-level="1.5" data-path="contactos.html"><a href="contactos.html#agregar-etiquetas-a-contactos"><i class="fa fa-check"></i><b>1.5</b> Agregar etiquetas a contactos</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="avances.html"><a href="avances.html"><i class="fa fa-check"></i><b>2</b> Avances</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="avances.html"><a href="avances.html#tareas"><i class="fa fa-check"></i><b>2.1</b> Tareas</a></li>
+<li class="chapter" data-level="2.2" data-path="avances.html"><a href="avances.html#llamadas"><i class="fa fa-check"></i><b>2.2</b> Llamadas</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="avances.html"><a href="avances.html#registrar-llamadas"><i class="fa fa-check"></i><b>2.2.1</b> Registrar llamadas</a></li>
+<li class="chapter" data-level="2.2.2" data-path="avances.html"><a href="avances.html#ver-llamadas-realizadas"><i class="fa fa-check"></i><b>2.2.2</b> Ver llamadas realizadas</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="avances.html"><a href="avances.html#notas"><i class="fa fa-check"></i><b>2.3</b> Notas</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="avances.html"><a href="avances.html#agregar-notas"><i class="fa fa-check"></i><b>2.3.1</b> Agregar notas</a></li>
+<li class="chapter" data-level="2.3.2" data-path="avances.html"><a href="avances.html#ver-notas-agregadas"><i class="fa fa-check"></i><b>2.3.2</b> Ver notas agregadas</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="avances.html"><a href="avances.html#eventos-de-calendario"><i class="fa fa-check"></i><b>2.4</b> Eventos de calendario</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="avances.html"><a href="avances.html#crear-evento-de-calendario"><i class="fa fa-check"></i><b>2.4.1</b> Crear evento de calendario</a></li>
+<li class="chapter" data-level="2.4.2" data-path="avances.html"><a href="avances.html#ver-eventos-de-mi-calendario"><i class="fa fa-check"></i><b>2.4.2</b> Ver eventos de mi calendario</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="acaps.html"><a href="acaps.html"><i class="fa fa-check"></i><b>3</b> ACAPs</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="acaps.html"><a href="acaps.html#carga-de-acaps"><i class="fa fa-check"></i><b>3.1</b> Carga de ACAPs</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="acaps.html"><a href="acaps.html#motivo"><i class="fa fa-check"></i><b>3.1.1</b> Motivo</a></li>
+<li class="chapter" data-level="3.1.2" data-path="acaps.html"><a href="acaps.html#contacto-relacionado"><i class="fa fa-check"></i><b>3.1.2</b> Contacto relacionado</a></li>
+<li class="chapter" data-level="3.1.3" data-path="acaps.html"><a href="acaps.html#prioridad"><i class="fa fa-check"></i><b>3.1.3</b> Prioridad</a></li>
+<li class="chapter" data-level="3.1.4" data-path="acaps.html"><a href="acaps.html#detalle"><i class="fa fa-check"></i><b>3.1.4</b> Detalle</a></li>
+<li class="chapter" data-level="3.1.5" data-path="acaps.html"><a href="acaps.html#asignada-a"><i class="fa fa-check"></i><b>3.1.5</b> Asignada a</a></li>
+<li class="chapter" data-level="3.1.6" data-path="acaps.html"><a href="acaps.html#orientación-principal"><i class="fa fa-check"></i><b>3.1.6</b> Orientación principal</a></li>
+<li class="chapter" data-level="3.1.7" data-path="acaps.html"><a href="acaps.html#orientación-potencial"><i class="fa fa-check"></i><b>3.1.7</b> Orientación potencial</a></li>
+<li class="chapter" data-level="3.1.8" data-path="acaps.html"><a href="acaps.html#cantidad-estudiantes-totales"><i class="fa fa-check"></i><b>3.1.8</b> Cantidad Estudiantes Totales</a></a></li>
+<li class="chapter" data-level="3.1.9" data-path="acaps.html"><a href="acaps.html#días-por-semana-que-asiste-un-estudiante"><i class="fa fa-check"></i><b>3.1.9</b> Días por semana que asiste un estudiante</a></li>
+<li class="chapter" data-level="3.1.10" data-path="acaps.html"><a href="acaps.html#cantidad-hs-acap-por-estudiante"><i class="fa fa-check"></i><b>3.1.10</b> Cantidad hs ACAP por estudiante</a></li>
+<li class="chapter" data-level="3.1.11" data-path="acaps.html"><a href="acaps.html#cantidad-de-estudiantes-en-simultáneo"><i class="fa fa-check"></i><b>3.1.11</b> Cantidad de estudiantes en simultáneo</a></li>
+<li class="chapter" data-level="3.1.12" data-path="acaps.html"><a href="acaps.html#turnos-a-realizar-la-acap"><i class="fa fa-check"></i><b>3.1.12</b> Turnos a realizar la ACAP</a></li>
+<li class="chapter" data-level="3.1.13" data-path="acaps.html"><a href="acaps.html#fecha-de-inicio"><i class="fa fa-check"></i><b>3.1.13</b> Fecha de inicio</a></li>
+<li class="chapter" data-level="3.1.14" data-path="acaps.html"><a href="acaps.html#horario-en-que-concurren"><i class="fa fa-check"></i><b>3.1.14</b> Horario en que concurren</a></li>
+<li class="chapter" data-level="3.1.15" data-path="acaps.html"><a href="acaps.html#horario-en-que-concurren-otros"><i class="fa fa-check"></i><b>3.1.15</b> Horario en que concurren (otros)</a></li>
+<li class="chapter" data-level="3.1.16" data-path="acaps.html"><a href="acaps.html#lanzamiento"><i class="fa fa-check"></i><b>3.1.16</b> Lanzamiento</a></li>
+<li class="chapter" data-level="3.1.17" data-path="acaps.html"><a href="acaps.html#acuerdo-marco-firmado"><i class="fa fa-check"></i><b>3.1.17</b> Acuerdo marco firmado</a></li>
+<li class="chapter" data-level="3.1.18" data-path="acaps.html"><a href="acaps.html#propuesta-pedagógica"><i class="fa fa-check"></i><b>3.1.18</b> Propuesta pedagógica</a></li>
+<li class="chapter" data-level="3.1.19" data-path="acaps.html"><a href="acaps.html#link-acta-pedagógica"><i class="fa fa-check"></i><b>3.1.19</b> Link acta pedagógica</a></li>
+<li class="chapter" data-level="3.1.20" data-path="acaps.html"><a href="acaps.html#cargada-en-plataforma"><i class="fa fa-check"></i><b>3.1.20</b> Cargada en plataforma</a></li>
+<li class="chapter" data-level="3.1.21" data-path="acaps.html"><a href="acaps.html#fecha-de-envío-del-acuerdo-a-la-organización-para-su-firma-digital"><i class="fa fa-check"></i><b>3.1.21</b> Fecha de envío del acuerdo (a la organización) para su firma digital</a></li>
+<li class="chapter" data-level="3.1.22" data-path="acaps.html"><a href="acaps.html#fecha-de-recepción-de-acuerdo-firmado"><i class="fa fa-check"></i><b>3.1.22</b> Fecha de recepción de acuerdo firmado</a></li>
+<li class="chapter" data-level="3.1.23" data-path="acaps.html"><a href="acaps.html#fecha-de-envío-del-acuerdo-a-las-áreas"><i class="fa fa-check"></i><b>3.1.23</b> Fecha de envío del acuerdo a las áreas</a></li>
+<li class="chapter" data-level="3.1.24" data-path="acaps.html"><a href="acaps.html#área"><i class="fa fa-check"></i><b>3.1.24</b> Área</a></li>
+<li class="chapter" data-level="3.1.25" data-path="acaps.html"><a href="acaps.html#escuela"><i class="fa fa-check"></i><b>3.1.25</b> Escuela</a></li>
+<li class="chapter" data-level="3.1.26" data-path="acaps.html"><a href="acaps.html#fecha-de-finalización-de-la-acap"><i class="fa fa-check"></i><b>3.1.26</b> Fecha de finalización de la ACAP</a></li>
+<li class="chapter" data-level="3.1.27" data-path="acaps.html"><a href="acaps.html#datos-de-referente-escolar"><i class="fa fa-check"></i><b>3.1.27</b> Datos de referente escolar</a></li>
+<li class="chapter" data-level="3.1.28" data-path="acaps.html"><a href="acaps.html#cupos-asignados"><i class="fa fa-check"></i><b>3.1.28</b> Cupos asignados</a></li>
+<li class="chapter" data-level="3.1.29" data-path="acaps.html"><a href="acaps.html#cupos-remanentes"><i class="fa fa-check"></i><b>3.1.29</b> Cupos remanentes</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="acaps.html"><a href="acaps.html#estado-de-una-acap"><i class="fa fa-check"></i><b>3.2</b> Estado de una ACAP</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ACAPs</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="acaps" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> ACAPs<a href="acaps.html#acaps" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>En el CRM, las ACAPs son consideradas <strong>Casos</strong> y se gestionan a través del menú <em>Actividades</em>.</p>
+<div id="carga-de-acaps" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Carga de ACAPs<a href="acaps.html#carga-de-acaps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Para cargar una ACAP, hay que ir al menú <em>Actividades / Casos</em> y dar clic en el botón azul <strong>Crear Caso</strong> (arriba a la derecha):</p>
+<div class="float">
+<img src="https://i.imgur.com/SkSYYZq.png" alt="Fig.16: cargar una ACAP nueva(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.16</strong>: <em>cargar una ACAP nueva</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br> Al dar clic en el botón <strong>“Crear Caso”</strong>, se abrirá un formulario con todos los campos necesarios para la carga de una ACAP por parte del equipo pedagógico (EP). Como siempre, los campos obligatorios son los que tienen un asterisco <span style="color: red;">rojo</span> (<span style="color: red;">*</span>). A continuación se explicará cómo completar los datos para la carga de una ACAP, campo por campo.</p>
+<div id="motivo" class="section level3 hasAnchor" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Motivo<a href="acaps.html#motivo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), se desplegará un menú</li>
+<li>Seleccionar “ACAP” de ese menú.</li>
+</ol>
+<p>Este campo <strong>SIEMPRE</strong> se completa con “ACAP”:</p>
+<div class="float">
+<img src="https://i.imgur.com/JO9VlDT.png" alt="Fig.17: Seleccionar ACAP como motivo(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.17</strong>: <em>Seleccionar ACAP como motivo</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="contacto-relacionado" class="section level3 hasAnchor" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Contacto relacionado<a href="acaps.html#contacto-relacionado" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>contactos</strong> (de tipo empresa y de tipo persona).</li>
+<li>Escribir palabra clave para buscar la <strong>organización</strong> en la cual se realizará la ACAP y/o seleccionarla del listado si aparece directamente. Para este campo, <strong>NO</strong> seleccionar contactos de tipo <strong>persona</strong>, siempre organizaciones (tipo <strong>empresa</strong>).</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/j3I66jM.png" alt="Fig.18: Seleccionar contacto relacionado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.18</strong>: <em>Seleccionar contacto relacionado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br><span style="font-size: 13px"><em>NOTA</em>: La búsqueda se realiza tanto en los campos nombre y razón social, y no es necesario poner palabras completas. Por ejemplo, si buscamos la organización “<em>TGN Transportadora Gas del Norte</em>”, con poner “trans” ya debería trae el contacto.</span>.</p>
+</div>
+<div id="prioridad" class="section level3 hasAnchor" number="3.1.3">
+<h3><span class="header-section-number">3.1.3</span> Prioridad<a href="acaps.html#prioridad" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Aparece por defecto prioridad <strong>“Media”</strong>. Por el momento la dejaremos con esa prioridad.</p>
+<div class="float">
+<img src="https://i.imgur.com/QcD7wOI.png" alt="Fig.19: Seleccionar prioridad(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.19</strong>: <em>Seleccionar prioridad</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="detalle" class="section level3 hasAnchor" number="3.1.4">
+<h3><span class="header-section-number">3.1.4</span> Detalle<a href="acaps.html#detalle" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Por el momento dejaremos en blanco este campo.</p>
+<div class="float">
+<img src="https://i.imgur.com/qxuB4zC.png" alt="Fig.20: Detalle(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.20</strong>: <em>Detalle</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="asignada-a" class="section level3 hasAnchor" number="3.1.5">
+<h3><span class="header-section-number">3.1.5</span> Asignada a<a href="acaps.html#asignada-a" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>usuarios</strong>.</li>
+<li>Escribir palabra clave para buscar el usuario al cual asignar esta ACAP. Normalmente, si quien carga este campo es un integrante del equipo pedagógico (EP), debería asignarse a sí mismo a esta ACAP.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/WEoAY1l.png" alt="Fig.21: Asignada a(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.21</strong>: <em>Asignada a</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br>Si quien carga es otra persona, puede asignar la ACAP al usuario propietario de este contacto o a cualquier otro usuario que considere por las razones que considere.</p>
+</div>
+<div id="orientación-principal" class="section level3 hasAnchor" number="3.1.6">
+<h3><span class="header-section-number">3.1.6</span> Orientación principal<a href="acaps.html#orientación-principal" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>orientaciones</strong>.</li>
+<li>Escribir palabra clave para buscar la <strong>orientación principal</strong> de la ACAP o seleccionarla de la lista si aparece directamente.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/V63AYX3.png" alt="Fig.22: Orientación principal(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.22</strong>: <em>Orientación principal</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="orientación-potencial" class="section level3 hasAnchor" number="3.1.7">
+<h3><span class="header-section-number">3.1.7</span> Orientación potencial<a href="acaps.html#orientación-potencial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>orientaciones</strong>.</li>
+<li>Escribir palabra clave para buscar la <strong>orientación potencial</strong> (de la ACAP) o seleccionarla de la lista si aparece directamente.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/1vv6QKX.png" alt="Fig.23: Orientación potencial(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.23</strong>: <em>Orientación potencial</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br>NOTA: Se considera <strong>orientación potencial</strong> a la orientación con la cual se vinculan ciertos contenidos y/o actividades de la ACAP, más allá de la orientación principal.</p>
+</div>
+<div id="cantidad-estudiantes-totales" class="section level3 hasAnchor" number="3.1.8">
+<h3><span class="header-section-number">3.1.8</span> Cantidad Estudiantes Totales</a><a href="acaps.html#cantidad-estudiantes-totales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Tipear el <strong>número</strong> (no letras) correspondiente al <strong>cupo total de estudiantes</strong> que ofrece la organización para esa ACAP (ver también <a href="acaps.html#cupos-asignados">Cupos Asignados</a>).</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/w0v0Z1U.png" alt="Fig.24: Cantidad estudiantes totales(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.24</strong>: <em>Cantidad estudiantes totales</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="días-por-semana-que-asiste-un-estudiante" class="section level3 hasAnchor" number="3.1.9">
+<h3><span class="header-section-number">3.1.9</span> Días por semana que asiste un estudiante<a href="acaps.html#días-por-semana-que-asiste-un-estudiante" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>días posibles</strong>.</li>
+<li>Seleccionar de la lista la combinación de días.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/A1dbefj.png" alt="Fig.25: Días por semana que asiste el grupo de estudiantes(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.25</strong>: <em>Días por semana que asiste el grupo de estudiantes</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br></p>
+<div style="background-color: #DAF7A6; padding: 10px; border-radius: 5px;">
+<p><strong>NOTA</strong>: Están consideradas todas las opciones posibles, pero también puede elegirse la opción “<strong>A definir con la escuela</strong>”. En caso de que diferentes grupos vayan en diferentes días, se debe colocar la opción que abarque a todos. Por ejemplo, si un grupo de estudiantes asiste a la ACAP los <em>lunes y miércoles</em>; y otro grupo los <em>martes y jueves</em>, entonces se debe seleccionar la opción <em>“Lunes a Jueves”</em>.</p>
+</div>
+</div>
+<div id="cantidad-hs-acap-por-estudiante" class="section level3 hasAnchor" number="3.1.10">
+<h3><span class="header-section-number">3.1.10</span> Cantidad hs ACAP por estudiante<a href="acaps.html#cantidad-hs-acap-por-estudiante" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Tipear el <strong>número</strong> (ni letras ni unidades tipo “hs”, solo el número) de estudiantes totales que concurrirán a la ACAP.</p>
+<div class="float">
+<img src="https://i.imgur.com/I5Yq4DA.png" alt="Fig.26: Cantidad de hs ACAP por estudiante(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.26</strong>: <em>Cantidad de hs ACAP por estudiante</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="cantidad-de-estudiantes-en-simultáneo" class="section level3 hasAnchor" number="3.1.11">
+<h3><span class="header-section-number">3.1.11</span> Cantidad de estudiantes en simultáneo<a href="acaps.html#cantidad-de-estudiantes-en-simultáneo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Tipear el <strong>número</strong> (no letras) de estudiantes en simultáneo que concurrirán a la ACAP.</p>
+<div class="float">
+<img src="https://i.imgur.com/7lcZt7r.png" alt="Fig.27: Cantidad de hs ACAP por estudiante(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.27</strong>: <em>Cantidad de hs ACAP por estudiante</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="turnos-a-realizar-la-acap" class="section level3 hasAnchor" number="3.1.12">
+<h3><span class="header-section-number">3.1.12</span> Turnos a realizar la ACAP<a href="acaps.html#turnos-a-realizar-la-acap" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>turnos posibles</strong>.</li>
+<li>Seleccionar de la lista el turno.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/2haEceh.png" alt="Fig.28: Turno en que se realiza la ACAP(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.28</strong>: <em>Turno en que se realiza la ACAP</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="fecha-de-inicio" class="section level3 hasAnchor" number="3.1.13">
+<h3><span class="header-section-number">3.1.13</span> Fecha de inicio<a href="acaps.html#fecha-de-inicio" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un <strong>calendario</strong>.</li>
+<li>Seleccionar la fecha de inicio de la ACAP.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/RNfJH0w.png" alt="Fig.29: Fecha de inicio de la ACAP(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.29</strong>: <em>Fecha de inicio de la ACAP</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="horario-en-que-concurren" class="section level3 hasAnchor" number="3.1.14">
+<h3><span class="header-section-number">3.1.14</span> Horario en que concurren<a href="acaps.html#horario-en-que-concurren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>horarios posibles</strong>.</li>
+<li>Seleccionar de la lista el horario.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/AmFZFVs.png" alt="Fig.30: Horario en que concurren(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.30</strong>: <em>Horario en que concurren</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="horario-en-que-concurren-otros" class="section level3 hasAnchor" number="3.1.15">
+<h3><span class="header-section-number">3.1.15</span> Horario en que concurren (otros)<a href="acaps.html#horario-en-que-concurren-otros" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Si en el campo <strong>horario en que concurren</strong> seleccionaron “<em>Otros</em>”, aquí deben introducir el horario. Es importante escribir el horario con formato análogo al que está en las opciones, por ejemplo “11 a 14 hs”.</p>
+<div class="float">
+<img src="https://i.imgur.com/t0XCl9l.png" alt="Fig.31: Horario en que concurren (otros)(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.31</strong>: <em>Horario en que concurren (otros)</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="lanzamiento" class="section level3 hasAnchor" number="3.1.16">
+<h3><span class="header-section-number">3.1.16</span> Lanzamiento<a href="acaps.html#lanzamiento" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de <strong>meses de lanzamiento</strong>.</li>
+<li>Seleccionar de la lista el <strong>mes</strong>.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/UZLgTZN.png" alt="Fig.32: Mes de lanzamiento(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.32</strong>: <em>Mes de lanzamiento</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="acuerdo-marco-firmado" class="section level3 hasAnchor" number="3.1.17">
+<h3><span class="header-section-number">3.1.17</span> Acuerdo marco firmado<a href="acaps.html#acuerdo-marco-firmado" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Seleccionar la casilla si el <strong>Acuerdo Marco</strong> ya está firmado.</p>
+<div class="float">
+<img src="https://i.imgur.com/PYPZCOl.png" alt="Fig.33: Acuerdo marco firmado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.33</strong>: <em>Acuerdo marco firmado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="propuesta-pedagógica" class="section level3 hasAnchor" number="3.1.18">
+<h3><span class="header-section-number">3.1.18</span> Propuesta pedagógica<a href="acaps.html#propuesta-pedagógica" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Seleccionar el archivo a cargar que contiene la <strong>Propuesta pedagógica</strong>. Acepta cualquier tipo de archivo (PDF, DOCX, DOC, XLS, etc.)</p>
+<div class="float">
+<img src="https://i.imgur.com/x87wnuv.png" alt="Fig.34: Propuesta pedagógica(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.34</strong>: <em>Propuesta pedagógica</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="link-acta-pedagógica" class="section level3 hasAnchor" number="3.1.19">
+<h3><span class="header-section-number">3.1.19</span> Link acta pedagógica<a href="acaps.html#link-acta-pedagógica" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Pegar el link al <strong>Acta pedagógica</strong>. Se recomienda pegar links de Google Drive.</p>
+<div class="float">
+<img src="https://i.imgur.com/mXbpD2b.png" alt="Fig.35: Acta pedagógica(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.35</strong>: <em>Acta pedagógica</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="cargada-en-plataforma" class="section level3 hasAnchor" number="3.1.20">
+<h3><span class="header-section-number">3.1.20</span> Cargada en plataforma<a href="acaps.html#cargada-en-plataforma" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Si esta ACAP ha sido <strong>cargada en plataforma miEscuela</strong> como <em>acción</em> u <em>oferta</em>, entonces se debe tildar la casilla.</p>
+<div class="float">
+<img src="https://i.imgur.com/1fnuDZq.png" alt="Fig.36: Cargada en plataforma(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.36</strong>: <em>Cargada en plataforma</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="fecha-de-envío-del-acuerdo-a-la-organización-para-su-firma-digital" class="section level3 hasAnchor" number="3.1.21">
+<h3><span class="header-section-number">3.1.21</span> Fecha de envío del acuerdo (a la organización) para su firma digital<a href="acaps.html#fecha-de-envío-del-acuerdo-a-la-organización-para-su-firma-digital" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Es la fecha en que el acuerdo se envió a la organización para su firma.</p>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el en el campo mismo, aparece el cursor titilando en el campo y se despliega un <strong>calendario</strong>.</li>
+<li>Seleccionar la <strong>fecha en que el acuerdo fue enviado para su firma digital</strong>.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/plAP9Fi.png" alt="Fig.37: Fecha de envío de acuerdo para su firma(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.37</strong>: <em>Fecha de envío de acuerdo para su firma</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="fecha-de-recepción-de-acuerdo-firmado" class="section level3 hasAnchor" number="3.1.22">
+<h3><span class="header-section-number">3.1.22</span> Fecha de recepción de acuerdo firmado<a href="acaps.html#fecha-de-recepción-de-acuerdo-firmado" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Es la fecha en que <strong>nosotros como equipo</strong> recibimos el acuerdo firmado por parte de la organización. Al dar clic en el campo se despliega el <strong>calendario</strong> para elegir la fecha.</p>
+<div class="float">
+<img src="https://i.imgur.com/JhDTlsW.png" alt="Fig.38: Fecha de recepción de acuerdo firmado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.38</strong>: <em>Fecha de recepción de acuerdo firmado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="fecha-de-envío-del-acuerdo-a-las-áreas" class="section level3 hasAnchor" number="3.1.23">
+<h3><span class="header-section-number">3.1.23</span> Fecha de envío del acuerdo a las áreas<a href="acaps.html#fecha-de-envío-del-acuerdo-a-las-áreas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Es la fecha en que <strong>nosotros como equipo</strong> enviamos el acuerdo firmado por la organización para que <strong>lo firmen los directores de área</strong>. Al dar clic en el campo se despliega el <strong>calendario</strong> para elegir la fecha.</p>
+<div class="float">
+<img src="https://i.imgur.com/SK3ELpY.png" alt="Fig.39: Fecha de recepción de acuerdo firmado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.39</strong>: <em>Fecha de recepción de acuerdo firmado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="área" class="section level3 hasAnchor" number="3.1.24">
+<h3><span class="header-section-number">3.1.24</span> Área<a href="acaps.html#área" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de las <strong>Direcciones de área</strong>.</li>
+<li>Seleccionar de la lista el <strong>área</strong> para la cual está destinada la ACAP.</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/F5Y634q.png" alt="Fig.40: Área a la cual se asigna la ACAP(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.40</strong>: <em>Área a la cual se asigna la ACAP</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="escuela" class="section level3 hasAnchor" number="3.1.25">
+<h3><span class="header-section-number">3.1.25</span> Escuela<a href="acaps.html#escuela" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Dar clic en el triangulito hacia abajo (o en el campo mismo), aparece el cursor titilando en el campo y se despliega un menú con la lista de las <strong>escuelas</strong>.</li>
+<li>Seleccionar de la lista la <strong>escuela</strong> donde se llevará a cabo la ACAP. Las escuelas están ordenadas alfabéticamente (salvo la primera que es el <strong>Colegio Sarmiento</strong>).</li>
+</ol>
+<div class="float">
+<img src="https://i.imgur.com/Ragu7Eq.png" alt="Fig.41: Escuela en la cual se realizará la ACAP(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.41</strong>: <em>Escuela en la cual se realizará la ACAP</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="fecha-de-finalización-de-la-acap" class="section level3 hasAnchor" number="3.1.26">
+<h3><span class="header-section-number">3.1.26</span> Fecha de finalización de la ACAP<a href="acaps.html#fecha-de-finalización-de-la-acap" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Es la fecha en que <strong>finaliza</strong> la ACAP. Al dar clic en el campo se despliega el <strong>calendario</strong> para elegir la fecha.</p>
+<div class="float">
+<img src="https://i.imgur.com/LAhheAI.png" alt="Fig.42: Fecha de finalización de la ACAP(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.42</strong>: <em>Fecha de finalización de la ACAP</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="datos-de-referente-escolar" class="section level3 hasAnchor" number="3.1.27">
+<h3><span class="header-section-number">3.1.27</span> Datos de referente escolar<a href="acaps.html#datos-de-referente-escolar" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div style="background-color: #f0f0f0; padding: 8px; border-radius: 5px;">
+<p><strong>NOTA</strong>: Estos <strong>tres campos</strong> (<em>nombre y apellido</em>; <em>teléfono</em> y <em>mail</em>), -idealmente-, deberían ser completados por alguna persona del <strong>Equipo Territorial</strong>.</p>
+</div>
+<p><br>Al dar clic en cada campo se escriben directamente los <strong>datos</strong> del referente escolar. Es importante notar que el <strong>teléfono</strong> sólo debe contener números (ni guiones ni espacios).</p>
+<p><span style="color: red">IMPORTANTE</span>: El referente escolar <strong>NO</strong> está (ni estará) cargado como contacto en el CRM.<br><br></p>
+<div class="float">
+<img src="https://i.imgur.com/WOoCNBP.png" alt="Fig.43: Datos de referente escolar(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.43</strong>: <em>Datos de referente escolar</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="cupos-asignados" class="section level3 hasAnchor" number="3.1.28">
+<h3><span class="header-section-number">3.1.28</span> Cupos asignados<a href="acaps.html#cupos-asignados" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div style="background-color: #f0f0f0; padding: 8px; border-radius: 5px;">
+<p><strong>NOTA</strong>: Esta información debería ser cargada -idealmente- por personas del <strong>Equipo Territorial</strong>.</p>
+</div>
+<p><br> Los <strong>cupos asignados</strong> se refiere a los cupos efectivamente asignados para esa ACAP de acuerdo a la escuela designada. Notar que en el caso de esta ACAP, el <a href="acaps.html#cantidad-estudiantes-totales">cupo ofrecido por la organización era de 30</a>, pero el tamaño de la división asignada de la escuela es de 27, por lo cual quedan 3 cupos remanentes (ver a continuación).</p>
+<div class="float">
+<img src="https://i.imgur.com/TLhft0Y.png" alt="Fig.43: Cupos asignados(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.43</strong>: <em>Cupos asignados</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+</div>
+<div id="cupos-remanentes" class="section level3 hasAnchor" number="3.1.29">
+<h3><span class="header-section-number">3.1.29</span> Cupos remanentes<a href="acaps.html#cupos-remanentes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div style="background-color: #f0f0f0; padding: 8px; border-radius: 5px;">
+<p><strong>NOTA</strong>: Esta información debería ser cargada -idealmente- por personas del <strong>Equipo Territorial</strong>.</p>
+</div>
+<p><br> Los <strong>cupos remanantes</strong> se refiere a los cupos que quedan <strong>vacantes</strong> una vez que se asigna la escuela y se sabe cuántos estudiantes efectivamente asistirán, más allá del cupo inicial ofrecido por la organización. En el caso de esta ACAP, el cupo total era de <strong>30 estudiantes</strong>, los <strong>cupos asignados</strong> fueron efectivamente <strong>27</strong> y entonces los cupos remanentes serían <strong>3</strong>.</p>
+<div class="float">
+<img src="https://i.imgur.com/FTnMWh1.png" alt="Fig.44: Cupos remanentes(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.44</strong>: <em>Cupos remanentes</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<hr>
+</div>
+</div>
+<div id="estado-de-una-acap" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Estado de una ACAP<a href="acaps.html#estado-de-una-acap" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Una vez finalizada la carga de datos de la ACAP (del “<em>Caso</em>”), al dar clic en el botón “Guardar y cerrar”, el caso se asigna automáticamente al <strong>flujo de trabajo</strong> llamado <em>Nuevo</em> con el <strong>estado</strong> “<em>1. Iniciado</em>”:</p>
+<div class="float">
+<img src="https://i.imgur.com/lrxs2Xa.png" alt="Fig.45: Flujo de trabajo de un caso recién creado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.45</strong>: <em>Flujo de trabajo de un caso recién creado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br>Luego, al <strong>editar</strong> el caso se lo puede <strong>re-categorizar</strong> de acuerdo al <strong>flujo de trabajo</strong>:</p>
+<div class="float">
+<img src="https://i.imgur.com/Xe8vRuy.png" alt="Fig.46: Flujos de trabajo de un caso (ACAP)(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.46</strong>: <em>Flujos de trabajo de un caso (ACAP)</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br>Cada una de las categorías del <strong>flujo de trabajo</strong> se corresponde con uno o más <strong>estados</strong> según la siguiente tabla:</p>
+<table>
+<colgroup>
+<col width="52%" />
+<col width="47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Flujo de trabajo</th>
+<th align="left">Estados</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Nuevo</td>
+<td align="left">1. Iniciado</td>
+</tr>
+<tr class="even">
+<td align="left">Derivar</td>
+<td align="left">Para asignarle el caso a alguien</td>
+</tr>
+<tr class="odd">
+<td align="left">Rechazar</td>
+<td align="left">7. Oferta pobre para presentar a una escuela</td>
+</tr>
+<tr class="even">
+<td align="left">Para analizar</td>
+<td align="left">2. Trabada</td>
+</tr>
+<tr class="odd">
+<td align="left">En curso</td>
+<td align="left">3. En proceso, 4. Avanzado</td>
+</tr>
+<tr class="even">
+<td align="left">Cancelar</td>
+<td align="left">Para suspenderlo hasta <strong>archivarlo</strong> o reabrirlo</td>
+</tr>
+<tr class="odd">
+<td align="left">Archivar</td>
+<td align="left">0. Se retira de la oferta</td>
+</tr>
+<tr class="even">
+<td align="left">Cerrar</td>
+<td align="left">5. Cerrado con Equipo Pedagógico; 6. Cerrado con EP y asignado a escuela</td>
+</tr>
+</tbody>
+</table>
+<p><br>En resumen, para <strong>cambiarle el estado</strong> a una ACAP (un Caso), hay que primero editar el caso y luego elegir el <strong>flujo de trabajo</strong> correspondiente (según la tabla de arriba) de acuerdo al estado al cual se quiera promover dicha ACAP. Por ejemplo, si se quisiera promover una ACAP al estado “<strong>4. Avanzado</strong>”, entonces se debe seleccionar primero el <strong>flujo de trabajo</strong> <em>en curso</em> y luego seleccionar el <strong>estado</strong> <em>4. Avanzado</em>. Aquí debajo se muestra una <strong>animación</strong> de cómo es el proceso:</p>
+<div class="float">
+<img src="https://i.imgur.com/L0uJ093.gif" alt="Fig.47: Cambio de estado de una ACAP de Iniciado a Avanzado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.47</strong>: <em>Cambio de estado de una ACAP de Iniciado a Avanzado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+<p><br> Para comprobar el cambio, se puede acceder al listado de las ACAPs y se puede comprobar como la ACAP ahora cambió al estado “<strong>4. Avanzado</strong>” (recuadro amarillo):</p>
+<div class="float">
+<img src="https://i.imgur.com/6qr40oz.png" alt="Fig.48: Listado de ACAPs con estado(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><span style="font-size: 14px;"><strong>Fig.48</strong>: <em>Listado de ACAPs con estado</em></span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+</div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="avances.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
