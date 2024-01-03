@@ -49,3 +49,6 @@ datos-de-referente-escolar
 cupos-asignados
 cupos-remanentes
 estado-de-una-acap
+etiquetar-contactos
+cómo-agregar-etiquetas-a-contactos
+cómo-etiquetar-contactos
