@@ -53,3 +53,5 @@ etiquetar-contactos
 cómo-agregar-etiquetas-a-contactos
 cómo-etiquetar-contactos
 edición-de-acaps
+editar-relaciones-de-contactos
+editar-relaciones
