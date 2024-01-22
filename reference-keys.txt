@@ -55,3 +55,5 @@ cómo-etiquetar-contactos
 edición-de-acaps
 editar-relaciones-de-contactos
 editar-relaciones
+acta-pedagógica
+link-propuesta-pedagógica
