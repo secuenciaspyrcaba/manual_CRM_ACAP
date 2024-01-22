@@ -57,3 +57,8 @@ editar-relaciones-de-contactos
 editar-relaciones
 acta-pedagógica
 link-propuesta-pedagógica
+crear-contactos
+tipo-empresa-organizaciones
+tipo-persona-personas
+organizaciones-tipo-empresa
+personas-tipo-persona
