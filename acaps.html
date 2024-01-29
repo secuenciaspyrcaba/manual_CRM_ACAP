@@ -23,7 +23,7 @@
 <meta name="author" content="Cristián Rizzi Iribarren" />
 
 
-<meta name="date" content="2024-01-22" />
+<meta name="date" content="2024-01-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -75,14 +75,17 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Presentación</a></li>
 <li class="chapter" data-level="1" data-path="contactos.html"><a href="contactos.html"><i class="fa fa-check"></i><b>1</b> Contactos</a>
 <ul>
-<li class="chapter" data-level="1.1" data-path="contactos.html"><a href="contactos.html#organizaciones"><i class="fa fa-check"></i><b>1.1</b> Organizaciones</a></li>
-<li class="chapter" data-level="1.2" data-path="contactos.html"><a href="contactos.html#personas"><i class="fa fa-check"></i><b>1.2</b> Personas</a></li>
-<li class="chapter" data-level="1.3" data-path="contactos.html"><a href="contactos.html#editar-contactos"><i class="fa fa-check"></i><b>1.3</b> Editar contactos</a></li>
-<li class="chapter" data-level="1.4" data-path="contactos.html"><a href="contactos.html#relacionar-contactos"><i class="fa fa-check"></i><b>1.4</b> Relacionar contactos</a>
+<li class="chapter" data-level="1.1" data-path="contactos.html"><a href="contactos.html#crear-contactos"><i class="fa fa-check"></i><b>1.1</b> Crear contactos</a>
 <ul>
-<li class="chapter" data-level="1.4.1" data-path="contactos.html"><a href="contactos.html#editar-relaciones"><i class="fa fa-check"></i><b>1.4.1</b> Editar relaciones</a></li>
+<li class="chapter" data-level="1.1.1" data-path="contactos.html"><a href="contactos.html#organizaciones-tipo-empresa"><i class="fa fa-check"></i><b>1.1.1</b> Organizaciones (tipo empresa)</a></li>
+<li class="chapter" data-level="1.1.2" data-path="contactos.html"><a href="contactos.html#personas-tipo-persona"><i class="fa fa-check"></i><b>1.1.2</b> Personas (tipo persona)</a></li>
 </ul></li>
-<li class="chapter" data-level="1.5" data-path="contactos.html"><a href="contactos.html#etiquetar-contactos"><i class="fa fa-check"></i><b>1.5</b> Etiquetar contactos</a></li>
+<li class="chapter" data-level="1.2" data-path="contactos.html"><a href="contactos.html#editar-contactos"><i class="fa fa-check"></i><b>1.2</b> Editar contactos</a></li>
+<li class="chapter" data-level="1.3" data-path="contactos.html"><a href="contactos.html#relacionar-contactos"><i class="fa fa-check"></i><b>1.3</b> Relacionar contactos</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="contactos.html"><a href="contactos.html#editar-relaciones"><i class="fa fa-check"></i><b>1.3.1</b> Editar relaciones</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="contactos.html"><a href="contactos.html#etiquetar-contactos"><i class="fa fa-check"></i><b>1.4</b> Etiquetar contactos</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="avances.html"><a href="avances.html"><i class="fa fa-check"></i><b>2</b> Avances</a>
 <ul>
@@ -136,6 +139,7 @@
 <li class="chapter" data-level="3.1.27" data-path="acaps.html"><a href="acaps.html#datos-de-referente-escolar"><i class="fa fa-check"></i><b>3.1.27</b> Datos de referente escolar</a></li>
 <li class="chapter" data-level="3.1.28" data-path="acaps.html"><a href="acaps.html#cupos-asignados"><i class="fa fa-check"></i><b>3.1.28</b> Cupos asignados</a></li>
 <li class="chapter" data-level="3.1.29" data-path="acaps.html"><a href="acaps.html#cupos-remanentes"><i class="fa fa-check"></i><b>3.1.29</b> Cupos remanentes</a></li>
+<li class="chapter" data-level="3.1.30" data-path="acaps.html"><a href="acaps.html#asignación-de-referente-territorial"><i class="fa fa-check"></i><b>3.1.30</b> Asignación de referente territorial</a></li>
 </ul></li>
 <li class="chapter" data-level="3.2" data-path="acaps.html"><a href="acaps.html#estado-de-una-acap"><i class="fa fa-check"></i><b>3.2</b> Estado de una ACAP</a></li>
 <li class="chapter" data-level="3.3" data-path="acaps.html"><a href="acaps.html#edición-de-acaps"><i class="fa fa-check"></i><b>3.3</b> Edición de ACAPs</a></li>
@@ -462,9 +466,18 @@
 </div>
 <p><br> Los <strong>cupos remanantes</strong> se refiere a los cupos que quedan <strong>vacantes</strong> una vez que se asigna la escuela y se sabe cuántos estudiantes efectivamente asistirán, más allá del cupo inicial ofrecido por la organización. En el caso de esta ACAP, el cupo total era de <strong>30 estudiantes</strong>, los <strong>cupos asignados</strong> fueron efectivamente <strong>27</strong> y entonces los cupos remanentes serían <strong>3</strong>.</p>
 <div class="float">
-<img src="https://i.imgur.com/FTnMWh1.png" alt="Fig.52: Cupos remanentes (botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
-<div class="figcaption"><strong>Fig.52</strong>: <em>Cupos remanentes</em> </span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
+<img src="https://i.imgur.com/FTnMWh1.png" alt="Fig.52a: Cupos remanentes (botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)" />
+<div class="figcaption"><strong>Fig.52a</strong>: <em>Cupos remanentes</em> </span><span style="font-size: 12px; color: gray; font-weight: bold;">(botón derecho y “Abrir imagen en una pestaña nueva” para ver en pantalla completa)</span></div>
 </div>
+</div>
+<div id="asignación-de-referente-territorial" class="section level3 hasAnchor" number="3.1.30">
+<h3><span class="header-section-number">3.1.30</span> Asignación de referente territorial<a href="acaps.html#asignación-de-referente-territorial" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La asignación del referente territorial para esa ACAP, se debe realizar a través de <strong>etiquetas</strong>, ya que no se cuenta con un campo específico para ese dato.
+Pueden asignarse cuantas referentes se desee, siempre agregando cada etiqueta.
+Aquí debajo se muestra el proceso de cómo realizarlo:</p>
+<iframe width="754" height="403" src="images/como-asignar-refrente-territorial-a-un-CASO-ACAP.mp4" title="Asignación de referente territorial a través de etiquetas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+<p><span style="font-size: 14px;"><strong>Fig.52b</strong>: <em>Video (sin sonido) de Cómo asignar un referente territorial a un caso (a una ACAP)</em></span></p>
 <hr>
 </div>
 </div>

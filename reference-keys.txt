@@ -62,3 +62,4 @@ tipo-empresa-organizaciones
 tipo-persona-personas
 organizaciones-tipo-empresa
 personas-tipo-persona
+asignación-de-referente-territorial
