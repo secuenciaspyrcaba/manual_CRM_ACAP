@@ -63,3 +63,14 @@ tipo-persona-personas
 organizaciones-tipo-empresa
 personas-tipo-persona
 asignación-de-referente-territorial
+desde-la-vista-de-casos
+cómo-busco-una-acap-un-caso
+buscar-una-acap-desde-casos
+editar-una-acap-desde-casos
+editar-una-acap-desde-reportes
+editar-desde-casos
+editar-desde-reportes
+cómo-agregar-una-etiqueta
+cómo-asignar-una-escuela
+editar-una-acap-desde-la-vista-casos
+editar-una-acap-desde-un-reporte
