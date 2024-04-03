@@ -74,3 +74,4 @@ cómo-agregar-una-etiqueta
 cómo-asignar-una-escuela
 editar-una-acap-desde-la-vista-casos
 editar-una-acap-desde-un-reporte
+cómo-pasar-de-status-5-a-status-6
